@@ -6,7 +6,7 @@ const SigninForm = () => {
    
  <React.Fragment>
   <div class="container">
-<h1>Login Form</h1><link rel="import" href="signupForm.jsx" />
+<h1>Login Form</h1>
     <form>
       <div class="mb-3">
         <label for="username" class="form-label">Username</label>
