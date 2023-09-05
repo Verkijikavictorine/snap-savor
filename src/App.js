@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import SigninForm from './components/signinForm';
+import SignupForm from './components/signupForm';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Welcome SnapSavor</h1>
+    <div>
+    <SigninForm/>
+  
     </div>
   );
 }

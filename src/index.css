@@ -1,1 +1,11 @@
 
+form {
+   border-radius: 13px;
+   border: solid;
+   border-width: 1px;
+   padding: 50px;
+}
+ 
+h1{
+    text-align: center;
+}
