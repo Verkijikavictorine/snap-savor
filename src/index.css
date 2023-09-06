@@ -1,11 +1,42 @@
 
-form {
-   border-radius: 13px;
-   border: solid;
-   border-width: 1px;
-   padding: 50px;
-}
+
+    body {
+      background-color: #fcfbf8;
+      background-image: url('./images/peakpx.jpg');
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center
+    }
+
+    .signup-container, .signin-container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #f37805;
+      border-radius: 30px;
+      background-color: rgba(103, 107, 103, 0.568);
+
+    }
+
+    .logo{
+      width: 70%;
+      display: block;
+      margin: auto;
+    }
+   
+
+    h2{
+      text-align: center;
+    }
+
+    
+
+    #account-button{
+      margin-left: 15px;
+      background-color:rgba(253, 78, 9, 0.753);
+      border-radius: 10px;
+      height: 40px;
+      border: 0px;
+      font-style: italic;
+    }
  
-h1{
-    text-align: center;
-}
