@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import "../index.css";
+import "../Styles/signin-signup.css";
+import logo1 from '../images/logo1.png'
 
 
-const SignupForm = () => {
+const Signup = () => {
   return (
       <div class="container">
         <div class="signup-container">
           <div class="signup-header">
-            <img class="logo" src="/images/logo1.png" alt="Logo" />
+            <img class="logo" src={logo1} alt="Logo" />
           </div>
             <h2>Signup</h2>
           <form>
@@ -57,7 +58,7 @@ const SignupForm = () => {
             <button type="submit" class="btn btn-light">
               Sign Up
             </button>
-            <Link to="/signinForm">
+            <Link to="/">
               <button id="account-button">I have an account</button>
             </Link>
           </form>
@@ -67,4 +68,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default Signup;
