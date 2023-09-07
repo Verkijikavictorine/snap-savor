@@ -2,7 +2,7 @@
 
     body {
       background-color: #030301;
-      background-image: url('../images/peakpx.jpg');
+      background-image: url('./peakpx\ 1.jpg');
       background-repeat: no-repeat; 
       background-size: cover; 
       background-position: center
@@ -10,12 +10,12 @@
 
     .signup-container, .signin-container {
       max-width: 400px;
-      margin-left: 20px;
+      margin-left: 300px;
       margin-top: 30px;
-      padding: 20px;
+      padding: 30px;
       border: 1px solid #f37805;
       border-radius: 30px;
-      background-color: rgba(103, 107, 103, 0.568);
+      background-color: rgba(9, 10, 9, 0.568);
 
     }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css"
-import "../Styles/signin-signup.css";
-import logo1 from '../images/logo1.png'
+import "../signin/signin.css";
+import logo1 from './logo1.png'
 
-const Signin = () => {
+const SignIn = () => {
     return ( 
    
  
@@ -38,4 +38,4 @@ const Signin = () => {
      );
 }
  
-export default Signin;
+export default SignIn;
