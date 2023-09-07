@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import SigninForm from './components/signinForm';
 import SignupForm from './components/signupForm';
 import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
