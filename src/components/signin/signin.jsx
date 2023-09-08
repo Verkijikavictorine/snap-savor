@@ -12,7 +12,7 @@ const SignIn = () => {
         <div class="signin-header">
         <img class="logo" src={logo1} alt="Logo" />
 
-          <h1>Login</h1>
+          <h2>Login</h2>
         </div>
         <form>
           <div class="mb-3">

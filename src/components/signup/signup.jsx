@@ -14,7 +14,7 @@ const SignUp = () => {
           <div class="signup-header">
             <img class="logo" src={logo1} alt="Logo" />
           </div>
-            <h1>SignUp</h1>
+            <h2>SignUp</h2>
           <form>
             <div class="mb-3">
               <label for="username" class="form-label">
