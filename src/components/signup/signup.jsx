@@ -1,22 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.css";
 import "../signup/signup.css";
-import logo1 from './logo1.png'
+import logo1  from '../../assets/logo-preview .png';
+
+
 
 
 const SignUp = () => {
   return (
-      <div class="container">
+     
+        <div class="signUpContainer">
         <div class="signup-container">
           <div class="signup-header">
             <img class="logo" src={logo1} alt="Logo" />
           </div>
-            <h2>Signup</h2>
+            <h2>SignUp</h2>
           <form>
             <div class="mb-3">
               <label for="username" class="form-label">
-                Username
+                <b>Username</b>
               </label>
               <input
                 type="text"
@@ -27,7 +29,7 @@ const SignUp = () => {
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">
-                Email
+                <b>Email</b>
               </label>
               <input
                 type="email"
@@ -39,7 +41,7 @@ const SignUp = () => {
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">
-                Password
+                <b>Password</b>
               </label>
               <input
                 type="password"
@@ -56,10 +58,10 @@ const SignUp = () => {
               </label>
             </div>
             <button type="submit" class="btn btn-light">
-              Sign Up
+              <b>Sign Up</b>
             </button>
             <Link to="/">
-              <button id="account-button">I have an account</button>
+              <button id="signUpAccount-button">I have an account</button>
             </Link>
           </form>
         </div>
@@ -68,4 +70,7 @@ const SignUp = () => {
   );
 };
 
+
 export default SignUp;
+
+

@@ -1,21 +1,24 @@
 
 
-    body {
-      background-color: #030301;
-      background-image: url('./peakpx\ 1.jpg');
+    .signUpContainer {
+      background-image: url('../../assets/peakpx.jpg');
       background-repeat: no-repeat; 
       background-size: cover; 
-      background-position: center
+      position: fixed;
+      background-position: center;
+      min-width: 100%;
+      min-height: 100%;
+
     }
 
-    .signup-container, .signin-container {
+    .signup-container{
       max-width: 400px;
-      margin-left: 300px;
+      margin-left: 500px;
       margin-top: 30px;
       padding: 30px;
       border: 1px solid #f37805;
       border-radius: 30px;
-      background-color: rgba(9, 10, 9, 0.568);
+      background-color: rgba(247, 245, 243, 0.89);
 
     }
 
@@ -33,7 +36,7 @@
 
     
 
-    #account-button{
+    #signUpAccount-button{
       margin-left: 15px;
       background-color:rgba(253, 78, 9, 0.753);
       border-radius: 10px;
