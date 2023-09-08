@@ -1,0 +1,51 @@
+
+
+    .signinContainer {
+      background-color: #ecece5;
+      background-image: url('../../assets/peakpx.jpg');
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      position: fixed;
+      background-position: center;
+      min-width: 100%;
+      min-height: 100%;
+
+
+    }
+
+     .signin-form{
+      max-width: 400px;
+      margin-left: 440px;
+      margin-top: 55px;
+      padding: 30px;
+      border: 1px solid #f79a0f;
+      border-radius: 30px;
+      background-color: rgba(250, 247, 245, 0.753);
+
+
+    }
+
+    .logo{
+      width: 70%;
+      display: block;
+      margin: auto;
+    }
+   
+
+    h2{
+      text-align: center;
+      color: #f37805;
+    }
+
+    
+
+    #signInAccount-button{
+      margin-left: 15px;
+      background-color:rgba(253, 78, 9, 0.753);
+      border-radius: 10px;
+      height: 40px;
+      border: 0px;
+      font-style: italic;
+      
+    }
+ 
