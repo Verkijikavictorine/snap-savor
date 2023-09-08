@@ -8,7 +8,7 @@ const SignIn = () => {
     return ( 
       
       <div class="signinContainer">
-      <div class="signin-container">
+      <div class="signin-form">
         <div class="signin-header">
         <img class="logo" src={logo1} alt="Logo" />
 

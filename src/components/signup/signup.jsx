@@ -10,7 +10,7 @@ const SignUp = () => {
   return (
      
         <div class="signUpContainer">
-        <div class="signup-container">
+        <div class="signup-form">
           <div class="signup-header">
             <img class="logo" src={logo1} alt="Logo" />
           </div>
