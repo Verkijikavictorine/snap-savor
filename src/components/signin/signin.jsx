@@ -11,7 +11,6 @@ const SignIn = () => {
       <div class="signin-form">
         <div class="signin-header">
         <img class="logo" src={logo1} alt="Logo" />
-
           <h2>Login</h2>
         </div>
         <form>
@@ -24,11 +23,12 @@ const SignIn = () => {
             <label for="password" class="form-label"><b>Password</b></label>
             <input type="password" class="form-control" id="password" placeholder="Enter your password" required/>
           </div>
-        
-          <button type="submit" class="btn btn-light"><b>Login</b></button>
+          <Link to="/Home">
+            <button id="button-Submit" type="submit" class="btn btn-light"><b>Login</b></button>
+          </Link>
           <Link to="/SignUp">
-                <button id="signInAccount-button">Create account</button>
-              </Link>
+            <button id="signInAccount-button">Create account</button>
+          </Link>
         </form>
       </div>
       </div>
