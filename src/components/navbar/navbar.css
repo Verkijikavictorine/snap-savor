@@ -1,12 +1,11 @@
 
   nav{
-   background-color: rgb(240, 238, 238);
+   background-color: whitesmoke;
   }
 
   .nav-link{
     font-size: 40px;
     color: orange;
-    
   }
 
   .navbar-brand{

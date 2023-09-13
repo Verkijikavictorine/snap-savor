@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "../signin/signin.css";
-import logo1  from '../../assets/logo-preview .png';
+import logo1  from '../../assets/form_logo.png';
 
 
 const SignIn = () => {
@@ -26,7 +26,7 @@ const SignIn = () => {
           <Link to="/Home">
             <button id="button-Submit" type="submit" class="btn btn-light"><b>Login</b></button>
           </Link>
-          <Link to="/SignUp">
+          <Link to="/signup">
             <button id="signInAccount-button">Create account</button>
           </Link>
         </form>
@@ -36,5 +36,3 @@ const SignIn = () => {
 };
  
 export default SignIn;
-
-
