@@ -1,18 +1,21 @@
 import React from 'react';
-import NavBar from '../navbar/NavBar';
-import "../dashboard/dashboard.css"
-import Dashboardbg from "../../assets/dashboard_background.jpg"
-
+import NavBar from '../dashboard/dashboard_nav'
+import "../dashboard/dashboard.css";
 
 const Dashboard = () => {
-    return ( 
-        <div className='dashboard-body'>
-            <NavBar/>
-           <div id='bg-image' className='p_image img-fluid iLightbox-container'>
-           <img src={Dashboardbg} alt="" />
-           </div>
+  return (
+    <div className="dashboard-background container-fluid">
+      <div className="row">
+        <div className="col-12">
+          <NavBar />
         </div>
-     );
-}
- 
+      </div>
+      <div className="row">
+        <div className="col-12">
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Dashboard;
