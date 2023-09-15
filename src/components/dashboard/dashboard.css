@@ -1,0 +1,12 @@
+#bg-image{
+    background-repeat: no-repeat; 
+      background-size: cover; 
+      position: fixed;
+      background-position: center;
+      min-width: 100%;
+      min-height: 100%;
+}
+
+.dashboard-body{
+  background-color: orange;
+}

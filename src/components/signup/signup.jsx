@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../signup/signup.css";
-import logo1  from '../../assets/logo-preview .png';
+import logo1  from '../../assets/form_logo.png';
 
 
 
@@ -57,10 +57,11 @@ const SignUp = () => {
                 I am a restaurant owner
               </label>
             </div>
-            <button type="submit" class="btn btn-light">
-              <b>Sign Up</b>
-            </button>
-            <Link to="/">
+            <Link to="/Home">
+            <button  id="button-Submit" type="submit" class="btn btn-light">
+              <b>Sign Up</b></button>
+            </Link>
+            <Link to="/signin">
               <button id="signUpAccount-button">I have an account</button>
             </Link>
           </form>
@@ -69,7 +70,6 @@ const SignUp = () => {
     
   );
 };
-
 
 export default SignUp;
 

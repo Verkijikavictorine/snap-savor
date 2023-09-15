@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "../signin/signin.css";
-import logo1  from '../../assets/logo-preview .png';
+import logo1  from '../../assets/form_logo.png';
 
 
 const SignIn = () => {
@@ -11,7 +11,6 @@ const SignIn = () => {
       <div class="signin-form">
         <div class="signin-header">
         <img class="logo" src={logo1} alt="Logo" />
-
           <h2>Login</h2>
         </div>
         <form>
@@ -24,11 +23,12 @@ const SignIn = () => {
             <label for="password" class="form-label"><b>Password</b></label>
             <input type="password" class="form-control" id="password" placeholder="Enter your password" required/>
           </div>
-        
-          <button type="submit" class="btn btn-light"><b>Login</b></button>
-          <Link to="/SignUp">
-                <button id="signInAccount-button">Create account</button>
-              </Link>
+          <Link to="/Home">
+            <button id="button-Submit" type="submit" class="btn btn-light"><b>Login</b></button>
+          </Link>
+          <Link to="/signup">
+            <button id="signInAccount-button">Create account</button>
+          </Link>
         </form>
       </div>
       </div>
@@ -36,5 +36,3 @@ const SignIn = () => {
 };
  
 export default SignIn;
-
-
