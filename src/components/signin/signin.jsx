@@ -6,7 +6,8 @@ import "../signin/signin.css";
 
 
 const SignIn = () => {
-  return ( <div class="container signin-container">
+  return(
+    <div class="container signin-container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <form className="signup-form">
@@ -31,14 +32,11 @@ const SignIn = () => {
           </form>
         </div>
       </div>
-    </div>
-   );
+      </div>
+      
+  )
 }
- 
-export default SignIn;
-
-
-
+    
 
 
 
