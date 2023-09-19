@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaUserLarge } from "react-icons/fa6";
 import { BsCart3 } from "react-icons/bs";
-import logo from "../../assets/dashboard_logo.png"
+import logo from "../../assets/home_logo.png"
 import './navbar.css'
 
 

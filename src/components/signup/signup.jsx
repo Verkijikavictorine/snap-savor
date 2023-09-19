@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../signup/signup.css";
- import logo1  from '../../assets/form_logo.png';
+ import form_logo  from '../../assets/form_logo.png';
 
 
 
@@ -11,7 +11,7 @@ const SignUp = () => {
         <div className="col-lg-6">
           <form className="signup-form">
             <div className="text-center">
-              <img src={logo1} alt="Image" className="img-fluid logo"/>
+              <img src={form_logo} alt="Image" className="img-fluid logo"/>
             </div>
           <h2 className="text-center mb-4">Sign Up</h2>
             <div className="form-group">
@@ -26,7 +26,7 @@ const SignUp = () => {
               <label for="password">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Enter your password"/>
             </div>
-            <Link to='/home'>
+            <Link to='/Dashboard'>
             <button type="submit" className="btn btn-primary signup-button ">Sign Up</button>
             </Link>
             <Link to='/signin'>
