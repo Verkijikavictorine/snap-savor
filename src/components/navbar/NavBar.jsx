@@ -21,8 +21,9 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/order">Order</Nav.Link>
-            <Nav.Link href="/order">Blog</Nav.Link>
-            <Nav.Link href="/order">About Us</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/aboutUs">About Us</Nav.Link>
+            <Nav.Link href="/signin">Login</Nav.Link>
             <div id='cart-icon'><BsCart3/></div>
             <div id='profile-icon'><FaUserLarge /></div>
             <NavDropdown title="Profile" id="basic-nav-dropdown">

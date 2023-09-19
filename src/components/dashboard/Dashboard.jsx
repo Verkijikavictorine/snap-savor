@@ -1,20 +1,13 @@
 import React from 'react';
-import NavBar from '../dashboard/dashboard_nav'
+import NavBar from '../navbar/NavBar';
 import "../dashboard/dashboard.css";
-
+import dashboard_background from '../../assets/dashboard_background.jpg'
 const Dashboard = () => {
   return (
-    <div className="dashboard-background container-fluid">
-      <div className="row">
-        <div className="col-12">
+      <div >
           <NavBar />
-        </div>
+       <img src={dashboard_background}  alt="" />
       </div>
-      <div className="row">
-        <div className="col-12">
-        </div>
-      </div>
-    </div>
   );
 };
 
