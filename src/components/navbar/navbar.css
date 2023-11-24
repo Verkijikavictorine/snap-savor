@@ -1,14 +1,16 @@
+#profile-icon{
+    margin-top: 7px;
+    margin-left: 40px;
 
-  nav{
-   background-color: whitesmoke;
-  }
+}
 
-  .nav-link{
-    font-size: 40px;
-    color: orange;
-  }
+#cart-icon{
+    margin-top: 7px;
+    margin-left: 15px;
+}
 
-  .navbar-brand{
-    font-size: 48px;
-    color: orange;
-  }
+.bg-body-tertiary{
+    padding: 10px;
+    font-size: 24px;
+    background-color: whitesmoke;
+}

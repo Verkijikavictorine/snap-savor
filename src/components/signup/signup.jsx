@@ -1,76 +1,48 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../signup/signup.css";
-import logo1  from '../../assets/form_logo.png';
-
+ import form_logo  from '../../assets/form_logo.png';
 
 
 
 const SignUp = () => {
-  return (
-     
-        <div class="signUpContainer">
-        <div class="signup-form">
-          <div class="signup-header">
-            <img class="logo" src={logo1} alt="Logo" />
-          </div>
-            <h2>SignUp</h2>
-          <form>
-            <div class="mb-3">
-              <label for="username" class="form-label">
-                <b>Username</b>
-              </label>
-              <input
-                type="text"
-                class="form-control"
-                id="username"
-                placeholder="Enter your username"
-              />
+  return ( <div className="container signup-container">
+      <div className="row justify-content-center">
+        <div className="col-lg-6">
+          <form className="signup-form">
+            <div className="text-center">
+              <img src={form_logo} alt="Image" className="img-fluid logo"/>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">
-                <b>Email</b>
-              </label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Enter your email"
-                required
-              />
+          <h2 className="text-center mb-4">Sign Up</h2>
+            <div className="form-group">
+              <label for="email">Username</label>
+              <input type="email" className="form-control" id="username" placeholder="Enter your Username"/>
             </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">
-                <b>Password</b>
-              </label>
-              <input
-                type="password"
-                class="form-control"
-                id="password"
-                placeholder="Enter your password"
-                required
-              />
+            <div className="form-group">
+              <label for="email">Email</label>
+              <input type="email" className="form-control" id="email" placeholder="Enter your email"/>
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="terms" />
-              <label class="form-check-label" for="terms">
-                I am a restaurant owner
-              </label>
+            <div className="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter your password"/>
             </div>
-            <Link to="/Home">
-            <button  id="button-Submit" type="submit" class="btn btn-light">
-              <b>Sign Up</b></button>
+            <Link to='/Dashboard'>
+            <button type="submit" className="btn btn-primary signup-button ">Sign Up</button>
             </Link>
-            <Link to="/signin">
-              <button id="signUpAccount-button">I have an account</button>
+            <Link to='/signin'>
+            <button type="submit" className="btn btn-primary signUpAccount-button ">I have an account</button>
             </Link>
           </form>
         </div>
       </div>
-    
-  );
-};
-
+    </div>
+   );
+}
+ 
 export default SignUp;
+
+
+
+
 
 
