@@ -21,9 +21,6 @@ function App() {
         component={Dashboard}/>
         <Route path="/order"
         component={CardContainer}/>
-        
-      </Switch>
-    </Router>
   );
 }
 
