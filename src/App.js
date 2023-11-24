@@ -4,6 +4,7 @@ import SignUp from './components/signup/SignUp';
 import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Dashboard from './components/dashboard/Dashboard';
+import CardContainer from './components/cards/CardContainer';
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
         component={SignUp}/>
         <Route path="/dashboard"
         component={Dashboard}/>
-        
-      </Switch>
-    </Router>
+        <Route path="/order"
+        component={CardContainer}/>
   );
 }
 
