@@ -1,32 +1,13 @@
-import React from "react";
-import "./card.css";
+import React from 'react';
 
-const CardItem = (props) => {
-  const { day, image, title, description, price } = props.object;
+const CardItem = ({ post }) => {
+  const { title, url } = post;
 
   return (
-    <div className="container">
-      <h1>{day}</h1>
-      <div className="row">
-        <div className="col-12">
-          <div className={`card shadow `}>
-            <img src={image} alt="yummy" className="card-img-top" />
-            <div className="card-img-overlay">
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                />
-                <span className="checkbox-custom"></span>
-              </label>
-            </div>
-            <div className="card-body">
-              <h2 className="card-title">{title}</h2>
-              <p className="card-text">{description}</p>
-              <h1>{price}</h1>
-              <input  type="number" placeholder="Quantity" />
-            </div>
-          </div>
-        </div>
+    <div className="card">
+      <img src={url} alt={title} className="card-img-top" />
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
       </div>
     </div>
   );
